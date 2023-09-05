@@ -1,0 +1,850 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header a{
+  padding: 20px 50px !important;
+  transition: all 1s !important;
+}
+header a:hover{
+  color: #f81f1f!important;
+  font-weight: 900 !important;
+}
+
+.nav-item span{
+  background-color: #dc3545 !important;
+  border-radius:8px !important;
+}
+
+.nav-item .badge{
+    font-size: 12px;
+    position: absolute;
+    top: -12%;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+
+.navbar-brand span{
+color: #dc3545;
+font-weight: 600;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 3rem;
+    font-weight: 700;
+    color: black;
+}
+
+.pad li{
+color: black;
+padding: 10px 20px;
+cursor: pointer;
+}
+.navbar-nav li:hover{
+    color: #dc3545;
+}
+
+
+
+ .background{
+    background-color: #d6dadf;
+ }
+
+ .background .text h2{
+    color:#0b1c39;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "Josefin Sans",sans-serif;
+    margin-bottom: 60px;
+ }  
+
+ .background .text p{
+    color: black;
+    font-weight: 400;
+    margin-bottom: 60px
+ }  
+ .background .text .hov{
+    transition: all 1s;
+    text-transform: uppercase;
+    border-radius: 0;
+    border: none;
+    padding: 15px 50px ;
+    position: relative;
+    z-index: 1;
+ }
+ .background .text .hov::after{
+    content: "";
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+    background-color:#f81f1f;
+    z-index: -1;
+    transition: all .5s;
+ }  
+
+
+ .background .text .hov:hover::after{
+    width: 100%;
+ }
+
+
+
+ .Arrivals{
+    padding: 150px 0;
+ }
+
+ .Arrivals .card .img{
+    overflow: hidden;
+ }
+ .Arrivals .card {
+    text-align: center;
+    border: none;
+ }
+
+ .Arrivals .card-title{
+    color: #777;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+ }
+ .Arrivals .card-text{
+    color: #dc3545;
+    font-size: 20px;
+    font-weight: bold;
+ }
+ .Arrivals .card img {
+    transition: all .5s;
+}
+
+ .Arrivals .card:hover img{
+    transform: scale(1.1);
+ }
+
+
+
+
+
+ .Arrivals .title h2{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: "Josefin Sans",sans-serif;
+
+ }
+
+
+
+
+
+ .Popular{
+  padding: 200px 0;
+ }
+
+ .Popular .title{
+  text-align: center;
+ }
+
+ .Popular .title h2{
+  font-size: 50px;
+  font-family: "Josefin Sans",sans-serif;
+  font-weight: 600;
+ }
+ .Popular .title p{
+  font-size: 16px;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 40px;
+}
+ 
+
+.Popular .card {
+text-align: center;
+border: none;
+}
+.Popular .card .card-body a{
+text-decoration: none;
+font-size: 25px;
+font-weight: 700;
+color: #444444;
+}
+
+.Popular .card .card-body p{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #444444;
+  }
+  .Popular .card .img{
+    position: relative;
+    overflow: hidden;
+  }
+  .Popular .card .img .bttn{
+    width: 100%;
+    font-size: 20px;
+    background-color: #f81f1f;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    position: absolute;
+    bottom: -10%;
+    transition: all .5s;
+  }
+  
+  .Popular .card:hover .img .bttn{
+  bottom: 0;
+  }
+
+
+
+
+  .Popular .btn{
+    transition: all 1s;
+    background-color: #f81f1f;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 0;
+    border: none;
+    padding: 15px 0px ;
+    position: relative;
+    z-index: 1;
+    font-family: "Josefin Sans",sans-serif;
+
+ }
+ .Popular .btn::after{
+    content: "";
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+    background-color:#444444;
+    z-index: -1;
+    transition: all .5s;
+ }  
+
+
+ .Popular .btn:hover::after{
+    width: 100%;
+ }
+
+
+ .Choice .watch-text h2{
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Josefin Sans",sans-serif;
+  margin-bottom: 30px;
+ }
+
+ .Choice .watch-text p{
+  font-size: 18px;
+  font-weight: 700;
+  color: #777;
+ }
+
+ .Choice .watch-text .btn{
+  transition: all .5s;
+  background-color: #f81f1f;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 0;
+  border: none;
+  padding: 15px 50px ;
+  position: relative;
+  z-index: 1;
+  font-family: "Josefin Sans",sans-serif;
+ }
+ .Choice .watch-text .btn::after{
+  content: "";
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  background-color:#444444;
+  z-index: -1;
+  transition: all .5s;
+}
+ 
+.Choice .watch-text .btn:hover::after{
+width: 100%;
+}
+
+.System .crd{
+  background-color: #f81f1f;
+}
+
+.System .crd i ,.System .crd p ,.System .crd h3{
+  font-size: 30px;
+  margin: 10px 30px;
+  color: #fff;
+}
+
+.System .crd h3{
+  font-size: 20px;
+  font-family: "Josefin Sans",sans-serif;
+  width: 500;
+}
+.System .crd p{
+  font-size: 16px;
+  font-family: "Josefin Sans",sans-serif;
+  width: 500;
+}
+
+
+
+.foot{
+  padding: 150px 0;
+}
+.foot .card{
+  border: none;
+  transition: all 1s;
+
+}
+.foot .card img{
+  width: 50%;
+  margin-bottom: 20px;
+}
+.foot .card p{
+  padding: 50px 0;
+}
+
+.foot .card h3{
+  font-size: 26px;
+  font-weight: 700;
+}
+.foot .card a{
+  text-decoration: none;
+  color: #777;
+  font-size: 18px;
+  padding: 5px 0;
+}
+.foot .card a:hover{
+color: #f81f1f;
+padding-left: 10px;
+}
+
+.foot .text{
+  margin-top: 100px;
+}
+.foot .social{
+text-align: right;
+}
+.foot .social i{
+  padding: 0 10px;
+}
+
+
+.foot .social i:hover{
+   color: #f81f1f;
+   cursor: pointer;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.backShop {
+   background-image: url(../img/about_hero.png);
+   background-size: cover;
+   background-position: center;
+   height: 70vh;
+}
+.backShop .text{
+   text-align: center;
+   padding-top: 250px;
+}
+.backShop .text h1{
+    font-family: "Josefin Sans",sans-serif;   
+    font-size: 100px;
+    font-weight: 400;
+    color: #0b1c39 ;
+    font-family: "Josefin Sans",sans-serif;   
+}
+.cards{
+   padding: 100px 0;
+}
+
+.cards .btttn a{
+   text-decoration: none;
+   color: black;
+   padding: 0 20px;
+   font-weight: 600;
+}
+
+.cards .dropdown button{
+   background-color: #c2c2c2;
+   border: none;
+   color: black;
+   border-radius: 10%;
+}
+.cards .btttn a:hover{
+border-bottom:2px solid #f81f1f;
+padding: 10px 20px;
+}
+
+.cards .card {
+   text-align: center;
+   border: none;
+   }
+   .cards .card .card-body a{
+   text-decoration: none;
+   font-size: 25px;
+   font-weight: 700;
+   color: #444444;
+   }
+   
+   .cards .card .card-body p{
+     text-decoration: none;
+     font-size: 20px;
+     font-weight: bold;
+     color: #444444;
+     }
+     .cards .card .img{
+       position: relative;
+       overflow: hidden;
+     }
+     .cards .card .img .bttn{
+       width: 100%;
+       font-size: 20px;
+       background-color: #f81f1f;
+       color: #fff;
+       border: none;
+       padding: 10px 0;
+       position: absolute;
+       bottom: -12%;
+       transition: all .5s;
+     }
+     
+     .cards .card:hover .img .bttn{
+     bottom: 0;
+     }
+   
+   
+   
+   
+     .cards .btn{
+       width: 22%;
+       transition: all 1s;
+       background-color: #f81f1f;
+       color: #fff;
+       text-transform: uppercase;
+       border-radius: 0;
+       border: none;
+       padding: 15px 50px ;
+       position: relative;
+       z-index: 1;
+       font-family: "Josefin Sans",sans-serif;
+   
+    }
+    .cards .btn::after{
+       content: "";
+       width: 0%;
+       height: 100%;
+       position: absolute;
+       inset: 0;
+       background-color:#444444;
+       z-index: -1;
+       transition: all .5s;
+    }  
+   
+   
+    .cards .btn:hover::after{
+       width: 100%;
+    }
+
+    .sys .row{
+      background-color: #f81f1f;
+      margin: 50px 0;
+    }
+
+    .sys .box{
+      padding: 25px 20px;
+      color: #d6dadf;
+    }
+    .sys .box i{
+      font-size: 30px;
+      margin-bottom: 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.backAbout {
+   background-image: url(../img/about_hero.png);
+   background-size: cover;
+   background-position: center;
+   height: 70vh;
+}
+.backAbout .text{
+   text-align: center;
+   position: absolute;
+   top: 40%;
+   left: 40%;
+}
+.backAbout .text h1{
+   font-family: "Josefin Sans",sans-serif;
+   font-size: 70px;
+   font-weight: 500;
+   color: #0b1c39 ;
+}
+
+.missions{
+   padding: 200px 0;
+}
+
+
+.missions .text h4{
+font-family: "Josefin Sans",sans-serif;
+color: #102a86;
+font-size: 35px;
+font-weight: 600;
+position: relative;
+padding-left: 60px;
+}
+.missions .text p{
+   color: #464d65;
+   font-size: 14px;
+   }
+   
+
+
+.missions .text h4::before{
+content: "";
+width: 40px;
+height: 2px;
+background-color: #f81f1f;
+position: absolute;
+left: 0;
+top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.role{
+   padding: 150px 0;
+}
+
+.role .text h3{
+   text-align: center;
+   margin: 50px 0;
+   color: #0b1c39;   
+   font-family: "Josefin Sans",sans-serif ;
+   font-size: 40px;
+   font-weight: 500;
+}
+
+.role .text p{
+   text-align: center;
+   color: #707070;
+}
+
+.add_to_cart{
+   text-align: center;
+   padding-top: 30px;
+}
+
+.add_to_cart .btn_3{
+   border: 1.5px solid #2577fd;
+   color: #2577fd;
+   padding: 10px 20px;
+   background-color: #fff;
+   font-family: "Josefin Sans",sans-serif ;
+   font-weight: 600;
+   transition: all .5s;
+   border-radius: 5px;
+}
+.add_to_cart .btn_3:hover{
+   border: 1.5px solid #2577fd;
+   color: #fff;
+   padding: 10px 20px;
+   background-color: #2577fd;
+}
+
+
+
+.promotions{
+   background: #0b1c39;
+   color: #fff;
+   padding: 50px 0;
+   text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.login-part{
+   padding: 200px 0;
+}
+
+.login-part .color .login-text{
+   padding: 200px 70px;
+   background-image: linear-gradient(90deg, #B08EAD 0%, #4B3049 100%);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  }
+  
+.login-part .color .login-text .btn_3{
+padding: 10px 30px;
+background-color: transparent;
+border: 1px solid #fff;
+color: #fff;
+border-radius: 5px;
+transition: all 0.5s;
+}
+.login-part .color .login-text .btn_3:hover{
+color: red;
+background-color: #fff;
+
+}
+
+.login-part .form h3{
+  font-size: 45px;
+  color: #0b1c39;
+}
+
+
+.login-part .form p{
+  font-size: 30px;
+  color: #0b1c39;
+}
+
+.login-part .form .btn_3{
+  padding: 20px 200px;
+  background-color: #fff;
+  color: #2577fd;
+  border: 1px solid #2577fd;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: all .5s;
+}
+
+.login-part .form .btn_3:hover{
+  padding: 20px 200px;
+  background-color: #0b1c39;
+  color: #fff;
+  border: 1px solid #0b1c39;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.hands .container-fluid .card 
+{
+    overflow: hidden;
+}
+.hands .row .card  img
+{
+    transition: all .5s; 
+    
+}
+.hands .row .card:hover img
+{
+    scale: .98; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1024px){
+  .backShop .text h1{
+     font-size: 40px;
+  }
+
+
+  .background .text h2{
+    font-size: 60px;
+    margin-bottom: 0;
+  }
+
+  
+  }
+
+  @media screen and (max-width:768px){
+    .background img{
+      width: 80%;
+    }
+    .backShop .text h1{
+       font-size: 40px;
+    }
+  
+  
+    .background .text h2{
+      font-size: 40px;
+      margin-bottom: 0;
+    }
+  
+    .watch img{
+      width: 100%;
+    }
+    .Choice .watch-text h2 {
+      font-size: 40px;
+    }
+    
+
+    .login-part .form .btn_3{
+      padding: 15px 160px;
+    }
+    }
+
+
+
+
+
+    @media screen and (max-width:767px){      
+      .background .text{
+        text-align: center;
+      }
+      .background .text h2{
+        font-size: 30px;
+        margin-bottom: 0;
+      }
+      
+      .Arrivals .title h2{
+        font-size: 30px;
+
+      }
+      .watch img{
+        width: 100%;
+      }
+
+      .Popular {
+        padding: 100px 0;
+    }
+
+    .Popular .title h2{
+      font-size: 30px;
+    }
+    .Popular .title p{
+      width: 100%;
+    }
+
+    .missions{
+      padding: 100px 0;
+    }
+    .missions .text h4{
+      font-size: 20px;
+      padding-left: 50px;
+    }
+
+    .missions .text p{
+      font-size: 12px;
+    }
+
+    .role .text h3{
+      font-size: 20px;
+    }
+    .role .text p{
+      font-size: 14px;
+    }
+
+
+    .login-part .form .btn_3{
+      padding: 15px 160px;
+    }
+    }
